@@ -16,6 +16,7 @@
     "terminal"
   ],
   "scripts": {
+    "preinstall": "git submodule update --init --recursive",
     "test": "NODE_ENV=test mocha -R spec"
   },
   "tags": [
