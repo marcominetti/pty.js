@@ -17,6 +17,7 @@
   ],
   "scripts": {
     "preinstall": "git submodule update --init --recursive",
+    "postinstall": "node-gyp rebuild",
     "test": "NODE_ENV=test mocha -R spec"
   },
   "tags": [
