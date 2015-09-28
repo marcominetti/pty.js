@@ -1,5 +1,5 @@
 {
-  "name": "pty.js",
+  "name": "pty.js-next",
   "description": "Pseudo terminals for node.",
   "author": "Christopher Jeffrey",
   "version": "0.3.1",
